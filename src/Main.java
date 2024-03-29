@@ -41,6 +41,6 @@ public class Main {
         System.out.println("Average Squaremeter of Summer Houses: " + residenceService.averagesquaremeterofSummerHouses());
         System.out.println("Average Squaremeter of All Residences: " + residenceService.averageSquareMeterOfAllResidences());
 
-        System.out.print(residenceService.filterResidencesByRoomsAndHalls(3,2));
+        System.out.println(residenceService.filterResidencesByRoomsAndHalls(3,2));
     }
 }

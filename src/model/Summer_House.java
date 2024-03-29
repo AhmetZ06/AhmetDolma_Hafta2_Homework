@@ -1,6 +1,5 @@
 package model;
 
-import lombok.*;
 
 import java.math.BigDecimal;
 
@@ -17,6 +16,6 @@ public class Summer_House extends Residence{
                 ", squareMeter=" + squareMeter +
                 ", NumberOfRooms=" + NumberOfRooms +
                 ", NumberOfHalls=" + NumberOfHalls +
-                '}';
+                '}'+"\n";
     }
 }

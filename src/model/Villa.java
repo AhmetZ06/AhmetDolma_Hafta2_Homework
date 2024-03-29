@@ -17,6 +17,6 @@ public class Villa extends Residence{
                 ", squareMeter=" + squareMeter +
                 ", NumberOfRooms=" + NumberOfRooms +
                 ", NumberOfHalls=" + NumberOfHalls +
-                '}';
+                '}'+ "\n";
     }
 }
