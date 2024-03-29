@@ -10,8 +10,7 @@ import java.math.BigDecimal;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
-@Builder
+@ToString
     public abstract class Residence {
         public int id;
         public BigDecimal price;
