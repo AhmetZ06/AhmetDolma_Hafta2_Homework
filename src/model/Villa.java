@@ -1,14 +1,22 @@
 package model;
 
-import lombok.Builder;
-import lombok.Data;
-import lombok.ToString;
 
 import java.math.BigDecimal;
-@ToString
+
 public class Villa extends Residence{
 
     public Villa(int id, BigDecimal price, BigDecimal squareMeter, int numberOfRooms, int numberOfHalls) {
         super(id, price, squareMeter, numberOfRooms, numberOfHalls);
+    }
+
+    @Override
+    public String toString() {
+        return "Villa{" +
+                "id=" + id +
+                ", price=" + price +
+                ", squareMeter=" + squareMeter +
+                ", NumberOfRooms=" + NumberOfRooms +
+                ", NumberOfHalls=" + NumberOfHalls +
+                '}';
     }
 }
